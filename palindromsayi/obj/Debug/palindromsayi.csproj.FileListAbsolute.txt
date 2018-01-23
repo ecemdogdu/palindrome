@@ -1,0 +1,7 @@
+C:\Users\Sony Vaio\source\repos\palindromsayi\palindromsayi\obj\Debug\palindromsayi.csprojResolveAssemblyReference.cache
+C:\Users\Sony Vaio\source\repos\palindromsayi\palindromsayi\obj\Debug\palindromsayi.csproj.CoreCompileInputs.cache
+C:\Users\Sony Vaio\source\repos\palindromsayi\palindromsayi\bin\Debug\palindromsayi.exe.config
+C:\Users\Sony Vaio\source\repos\palindromsayi\palindromsayi\bin\Debug\palindromsayi.exe
+C:\Users\Sony Vaio\source\repos\palindromsayi\palindromsayi\bin\Debug\palindromsayi.pdb
+C:\Users\Sony Vaio\source\repos\palindromsayi\palindromsayi\obj\Debug\palindromsayi.exe
+C:\Users\Sony Vaio\source\repos\palindromsayi\palindromsayi\obj\Debug\palindromsayi.pdb
