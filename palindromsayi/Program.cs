@@ -10,44 +10,51 @@ namespace palindromsayi
     {
         static void Main(string[] args)
         {
-       //int  tersSayi=0;
+      
            int carpım;
+            int buyukSayi = 0;
             for (int i = 999; i >=100; i--)
             {
                 for (int j = 999; j >=100; j--)
                 {
                     carpım = i * j;
-                    PalindromSayiyiBul(carpım);
-                    
+                   int sayi= PalindromSayiyiBul(carpım);
+                    if (sayi >= buyukSayi)
+                    {
+                        buyukSayi = sayi;
+                        
+                    }
+                   
                     
                 }
 
 
             }
-          
+            Console.WriteLine(buyukSayi);
             Console.ReadLine();
 
         }
         public static int PalindromSayiyiBul(int sayi)
         {
             int tersSayi = 0;
-            while (sayi > 0)
+            int yeniSyi = sayi;
+            while (yeniSyi > 0)
             {
-
-                tersSayi = tersSayi * 10 + sayi % 10;
-                sayi /= 10;
+                
+                tersSayi = tersSayi * 10 + yeniSyi % 10;
+                yeniSyi /= 10;
 
             }
             if (tersSayi == sayi)
             {
-                Console.WriteLine("palindrom sayi:" + tersSayi);
+                return tersSayi;
 
             }
             else
             {
-                Console.WriteLine("palindrom sayi değildir");
+                return 0;
             }
-            return tersSayi;
+          
         }
     }
 }
